@@ -12,21 +12,23 @@ POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
 
 {
-  "email": "test5@example.com",
-  "username": "test5@test.com",
-  "name": "Hello4",
-  "ipaddress": "94.121.163.63"
+  "firstName": "Syla",
+  "lastName": "Marie",
+  "email": "syla@gmail.com",
+  "favoriteColor": "black",
+  "birthday": "01/10/06"
 }
 
 ### PUT contact
-PUT http://localhost:3000/users/6867b19595436519e4bdd544 HTTP/1.1
+PUT http://localhost:3000/users/686ff46b4b5239149b321eca HTTP/1.1
 content-type: application/json
 
 {
-  "email": "test5@example.com",
-  "username": "test5@test.com",
-  "name": "Hello4",
-  "ipaddress": "94.121.163.63"
+  "firstName": "Marie",
+  "lastName": "Syla",
+  "email": "marie@gmail.com",
+  "favoriteColor": "green",
+  "birthday": "01/10/05"
 }
 
 ### Delete contact
